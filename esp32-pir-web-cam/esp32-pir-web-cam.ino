@@ -16,8 +16,8 @@
                TODO: Implement painlessMesh so devices can communicate with an edge controller that sends notifications
                      by email or pushbullet. Also implement photo upload via web interface.
                
-               NOTE: GPIO16 has a 10k pullup resistor connected to the 3V3 rail.
-
+  NOTE: Pull-up resistors.
+  GPIO4,12,13,14,15,16 used for SD card have 47k pullup resistors connected to the 3V3 rail.
 
 */
 

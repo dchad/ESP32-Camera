@@ -8,8 +8,13 @@
                from a web client then saves the photos to SD card and displays them 
                in a web page.
                
-               NOTE: GPIO16 has a 10k pullup resistor connected to the 3V3 rail.
+               NOTE: Pull-up resistors.
+               GPIO4,12,13,14,15,16 used for SD card have 47k pullup resistors 
+               connected to the 3V3 rail.
 
+  Based on code by Rui Santos:  
+  https://RandomNerdTutorials.com/esp32-cam-take-photo-display-web-server/
+  https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/
 
 */
 
